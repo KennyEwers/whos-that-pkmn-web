@@ -1,0 +1,62 @@
+html {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+body {
+    margin: auto;
+}
+
+h1 {}
+
+p {}
+
+
+
+#title {
+    font-size: 7rem;
+    text-align: center;
+}
+
+#scoreboard {
+    display: flex;
+    font-size: 2.5rem;
+}
+
+#timer {
+    text-align: start;
+    flex-grow: 1;
+}
+
+#score {
+    text-align: end;
+    flex-grow: 1;
+}
+
+#description {
+    text-align: center;
+    font-size: 4.5rem;
+    margin: 2rem;
+}
+
+#input-container {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+#input-box {
+    font-size: larger;
+}
+
+#skip-container {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+#skip-button {
+
+}
