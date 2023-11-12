@@ -1,3 +1,13 @@
+@font-face {
+    font-family: pixelFont;
+    src: url(pixel_font.ttf);
+}
+
+@font-face {
+    font-family: pokemonFont;
+    src: url(pokemon_solid_font.ttf);
+}
+
 html {
     margin-left: 10%;
     margin-right: 10%;
@@ -7,20 +17,18 @@ body {
     margin: auto;
 }
 
-h1 {}
-
-p {}
-
-
-
 #title {
-    font-size: 7rem;
+    font-size: 4rem;
     text-align: center;
+    font-family: pokemonFont;
+    line-height: 4rem;
+    letter-spacing: .35rem;
 }
 
 #scoreboard {
     display: flex;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    font-family: pixelFont;
 }
 
 #timer {
@@ -35,28 +43,52 @@ p {}
 
 #description {
     text-align: center;
-    font-size: 4.5rem;
+    font-size: 2rem;
+    line-height: 2.1rem;
     margin: 2rem;
+    font-family: pixelFont;
 }
 
 #input-container {
     display: flex;
     justify-content: center;
-    font-size: 2.5rem;
-    margin: 2rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 #input-box {
     font-size: larger;
+    font-family: pixelFont;
+    text-align: center;
+    border: 0.15rem solid black;
+    border-radius: 0.5rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
 }
 
 #skip-container {
     display: flex;
     justify-content: center;
-    font-size: 2.5rem;
-    margin: 2rem;
+    font-size: 1.5rem;
+
 }
 
 #skip-button {
-
+    font-family: pixelFont;
+    background-color: transparent;
+    border: 0.15em solid black;
+    color: black;
+    padding: 0.5em 0.5em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0.35em;
+    transition-duration: 0.3s;
 }
+
+#skip-button:hover {
+    background-color: lightcoral;
+    color: lightgray
+}
+
